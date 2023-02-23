@@ -1,9 +1,7 @@
+import Layout from 'components/Layout/Layout';
+import SEO from 'components/SEO/SEO';
+import Logo from 'public/svg/logo.svg';
 import * as React from 'react';
-
-import Layout from '@/components/Layout/Layout';
-import SEO from '@/components/SEO/SEO';
-
-import Logo from '~/svg/logo.svg';
 
 export default function NotFoundPage() {
   return (
