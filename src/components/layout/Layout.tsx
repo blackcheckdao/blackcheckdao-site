@@ -1,6 +1,11 @@
 import * as React from 'react';
 
-export default function Layout({ children }: { children: React.ReactNode }) {
-  // Put Header or Footer Here
+type IProps = {
+  children?: React.ReactNode;
+};
+
+const Layout: React.FC<IProps> = ({ children }) => {
   return <>{children}</>;
-}
+};
+
+export default Layout;
